@@ -1,0 +1,51 @@
+
+.required::after{
+    content: "*";
+    color: red;
+
+}
+
+.checked{
+    color:sandybrown;
+}
+.unchecked{
+        color:black;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+}
+.container{
+    font-size: 10px;
+    font-weight: 500;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 2x;
+    
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(#71b7e6, #9b59b6);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+form
+ .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: clac(100% / 2 - 20px) ;
+}
